@@ -1,0 +1,28 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "editor.lineHeight": 1.5,
+    "editor.tabSize": 4,
+    "editor.fontSize": 12,
+    "workbench.startupEditor": "newUntitledFile", //sempre abrir o vs com um arquivo novo
+    "editor.wordWrap": "on", //não deixar criar a barra de rolagem de baixo, quebra a linha visualmente
+    "editor.minimap.renderCharacters": false, // forma de exibição do mini mapa
+    "telemetry.telemetryLevel": "off", //parar de enviar formulário pra windows
+    "security.workspace.trust.untrustedFiles": "open", // parar de aparecer msg de segurança sempre que abrir um arquivo
+    "breadcrumbs.filePath": "off", //não mostrar o documento no caminho da tag
+    "outline.icons": false, // não mostrar icon no caminho da tag
+    "liveServer.settings.donotShowInfoMsg": true, //tirar avisos do LiveServer
+    "liveServer.settings.donotVerifyTags": true, //tirar avisos do LiveServer
+    "editor.formatOnSave": true, // organizar automaticamente ao salvar
+    "html.format.wrapAttributes": "auto", //mudando apenas o jeito que os atributos são quebrados
+    "html.format.wrapLineLength": 0, //e o tamanho da linha ao salvar
+    // "html.autoClosingTags": false, // parar de ficar fechando tag autometica qdo está no meio da tag.
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // botando o prettier como editor padrão de formatação
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features" //menos pro HTML
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false
+  }
